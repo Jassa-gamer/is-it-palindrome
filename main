@@ -1,0 +1,14 @@
+# Ask the user for a string and print out whether this string is a palindrome or not.
+# (A palindrome is a string that reads the same forwards and backwards.)
+
+palin = input("please enter the palindrome or anything else: ")
+p1 = palin[0:]          # This print palin forward
+p2 = palin[::-1]        # This print palin backwards
+
+if p1 == p2:
+    print("This is a palindrome")
+else:
+    print("This is not palindrome")
+
+# finally i made it after an hour of thinking.
+#  watching minecraft but thinking more.
